@@ -350,12 +350,59 @@ template {
 }
 
 body {
-  background-color: #333;
-  color: #fff;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: black;
 }
 
-.headline {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
+img {
+  max-width: 100%;
+  height: auto;
 }
+
+.large-car {
+  position: relative;
+}
+
+.large-car__text-content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.large-car__text-content h1 {
+    font-weight: 700;
+  }
+
+/*@import "modules/_btn.scss";*/
+
+/*@import "modules/_wrapper.scss";*/
+
+/*@import "modules/_page-section.scss";*/
+
+/*@import "modules/_headline.scss";*/
+
+/*@import "modules/_row.scss";*/
+
+/*@import "modules/_generic-content-container.scss";*/
+
+/*@import "modules/_section-title.scss";*/
+
+/*@import "modules/_feature-item.scss";*/
+
+/*@import "modules/_testimonial.scss";*/
+
+/*@import "modules/_sprite.scss";*/
+
+/*@import "modules/_site-footer.scss";*/
+
+/*@import "modules/_site-header.scss";*/
+
+/*@import "modules/_primary-nav.scss";*/
+
+/*@import "modules/_reveal-item.scss";*/

@@ -1,17 +1,18 @@
 .large-car {
   position: relative;
-}
+  border-bottom: 10px solid $mainRed;
 
-.large-car__text-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
+  &__text-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(245, 231, 231);
+  }
 
-  h1 {
-    font-weight: 700;
+  &__image {
+    display: block;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Welkom bij TintMyRide</title>
-    <meta name="keywords" content="Tinting, My ride" />
+    <meta name="keywords" content="Tinting, My ride, window tinting, car window" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -15,20 +15,22 @@
     <link rel="stylesheet" href="temp/styles/styles.css" />
   </head>
   <body>
+    <!-- Site logo met navigatiebalk -->
     <header class="site-header">
       <div class="wrapper">
         <div class="site-header__logo">
           <img src="./assets/images/TMR-logo-nav.jpeg" alt="TMR Logo" />
         </div>
 
-        <div class="site-header__menu-content">
-          <div class="site-header__btn-container">
-            <a href="#" class="btn">Aan de slag</a>
+        <div>
+          <div>
+            <a href="#" class="btn">Wrap this up</a>
           </div>
-          <nav class="primary-nav primary-nav--pull-right">
+
+          <nav>
             <ul>
-              <li><a href="#">Over ons</a></li>
-              <li><a href="#">Onze produkten</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Our products</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
@@ -36,14 +38,24 @@
       </div>
     </header>
 
+    <!-- Welkomst sectie onder navigatiebalk -->
     <div class="large-car">
-      <img src="assets/images/car--large.jpg" alt="Car Background" />
+      <img src="assets/images/car--large.jpg" alt="Car Background" class="large-car__image" />
+
       <div class="large-car__text-content">
-        <h2>Tint My Ride</h2>
-        <h3>Outside car solution's</h3>
-        <p>We transform your car into a piece of shit looking donut.</p>
-        <p><a href="#">Let's begin</a></p>
+        <div class="wrapper">
+          <h2>Tint My Ride</h2>
+          <h3>Outside car solution's</h3>
+          <p>We transform your car into a piece of shit looking donut.</p>
+          <p class="btn"><a href="#">Let's Wrap</a></p>
+        </div>
       </div>
     </div>
+
+    <footer>
+      <p>Copyright</p>
+    </footer>
+
+    <script src="/temp/scripts/App.js"></script>
   </body>
 </html>

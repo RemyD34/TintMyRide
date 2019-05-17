@@ -1,2 +1,7 @@
 .site-header {
+  position: relative;
+
+  &__logo {
+    display: block;
+  }
 }
